@@ -15,4 +15,8 @@ ax = cap10.market_cap_perc.plot.bar(title=TOP_CAP_TITLE, colors=COLORS, logy=Tru
 * Find the distribution of coin size by splitting coins into categories of 'biggish', 'micro', and 'nano'
 
 ### Data cleaning:
+* Cryptocurrencies with no value/ market capitalization are discarded
+```
+cap = market_cap_raw.query('market_cap_usd > 0')
+```
 
