@@ -20,3 +20,12 @@ ax = cap10.market_cap_perc.plot.bar(title=TOP_CAP_TITLE, colors=COLORS, logy=Tru
 cap = market_cap_raw.query('market_cap_usd > 0')
 ```
 
+### Techniques for visualizations:
+* Matplotlib.pyplot, bar, subplots
+```
+import matplotlib.pyplot as plt
+fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(10, 6))
+ax = cap10.market_cap_perc.plot.bar(title=TOP_CAP_TITLE, colors=COLORS, logy=True)
+```
+
+
