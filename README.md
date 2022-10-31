@@ -11,7 +11,7 @@ Analysis of a sample Bitcoin Cryptocurrency Market based on multiple cryptocurre
 ax = cap10.market_cap_perc.plot.bar(title=TOP_CAP_TITLE, colors=COLORS, logy=True)
 ```
 
-* Identifying volatililty (change) amongst cryptocurrencies
+* Identifying volatililty (market change) amongst cryptocurrencies
 * Find the distribution of coin size by splitting coins into categories of 'biggish', 'micro', and 'nano'
 
 ### Data cleaning:
