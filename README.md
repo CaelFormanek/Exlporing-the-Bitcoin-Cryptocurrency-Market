@@ -28,4 +28,8 @@ fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(10, 6))
 ax = cap10.market_cap_perc.plot.bar(title=TOP_CAP_TITLE, colors=COLORS, logy=True)
 ```
 
+### Barplot examples:
+<img width="622" alt="Screen Shot 2022-10-31 at 10 42 07 AM" src="https://user-images.githubusercontent.com/116219953/199074371-17ff8afc-a5bf-4134-aac4-67f9e89f501e.png">
+<img width="776" alt="Screen Shot 2022-10-31 at 10 44 18 AM" src="https://user-images.githubusercontent.com/116219953/199074391-18ff202a-6aa0-474c-829c-b4a01e5bc11a.png">
+
 
