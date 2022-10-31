@@ -1,5 +1,6 @@
 # Exploring-the-Bitcoin-Cryptocurrency-Market
-Analysis of a sample Bitcoin Cryptocurrency Market based on multiple cryptocurrency characteristics
+Analysis of a sample Bitcoin Cryptocurrency Market based on multiple cryptocurrency characteristics. This project is guided with the help of instruction from datacamp.com
+
 <br />
 <br />
   
